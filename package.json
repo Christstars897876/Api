@@ -1,0 +1,19 @@
+{
+  "name": "hedgehog-chatgpt-api",
+  "version": "1.0.0",
+  "description": "API ChatGPT pour HedgehogGPT - Déployée sur Vercel",
+  "main": "api/ask.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "keywords": ["chatgpt", "openai", "vercel", "api", "hedgehog"],
+  "author": "Ismaël",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.52.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
