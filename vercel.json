@@ -7,7 +7,7 @@
         }
     ],
     "env": {
-        "OPENAI_API_KEY": "@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",
+        "OPENAI_API_KEY": "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",
         "OPENAI_MODEL": "gpt-3.5-turbo"
     }
 }
